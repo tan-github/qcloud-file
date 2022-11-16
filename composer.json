@@ -1,0 +1,26 @@
+{
+    "name": "tan-github/qcloud-file",
+    "description": "腾讯云文件存储",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TanGithub\\QcloudFile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tan",
+            "email": "923360732@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "qcloud/cos-sdk-v5": ">=2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qcloud\\": "src/"
+        }
+    }
+}
